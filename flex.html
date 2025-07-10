@@ -41,48 +41,81 @@
             font-size: 50px;
             color: red;
         }
+        nav ul {
+            display: flex;
+        }
+
+        nav li{
+            list-style: none;
+            margin-right: 20px;
+
+        }
+        nav li a{
+            text-decoration: none;
+            color: black;
+
+        }
+        nav li:hover{
+            background-color: cornflowerblue;
+        }
 
     </style>
 </head>
 <body>
-    <div class="container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-    </div>
-    <div class="box-container">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">6</div>
-    </div>
-    <div>
-        <p>To flow the content to next line we need to use <b>flex-wrap.</b>So the content will go next line automiticaly after cover its own space:</p>
-    </div>
-    <div class="users-container">
-        
-        <div class="user">user-1</div>
-        <div class="user">user-2</div>
-        <div class="user">user-3</div>
-        <div class="user">user-1</div>
-        <div class="user">user-2</div>
-        <div class="user">user-3</div>
-        <div class="user">user-1</div>
-        <div class="user">user-2</div>
-        <div class="user">user-3</div>
-        <div class="user">user-1</div>
-        <div class="user">user-2</div>
-        <div class="user">user-3</div>
-        <div class="user">user-1</div>
-        <div class="user">user-2</div>
-        <div class="user">user-3</div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="auto.html">Auto</a></li>
+                <li><a href="center.html">Center</a></li>
+                <li><a href="flex.html">Flex</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+        </nav>
 
-    </div>
+    </header>
+    <main>
+        <div class="container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+        <div class="box-container">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+        </div>
+        <div>
+            <p>To flow the content to next line we need to use <b>flex-wrap.</b>So the content will go next line automiticaly after cover its own space:</p>
+        </div>
+        <div class="users-container">
+            
+            <div class="user">user-1</div>
+            <div class="user">user-2</div>
+            <div class="user">user-3</div>
+            <div class="user">user-1</div>
+            <div class="user">user-2</div>
+            <div class="user">user-3</div>
+            <div class="user">user-1</div>
+            <div class="user">user-2</div>
+            <div class="user">user-3</div>
+            <div class="user">user-1</div>
+            <div class="user">user-2</div>
+            <div class="user">user-3</div>
+            <div class="user">user-1</div>
+            <div class="user">user-2</div>
+            <div class="user">user-3</div>
+
+        </div>
+    </main>
     
 </body>
 </html>
